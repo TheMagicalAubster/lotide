@@ -1,9 +1,9 @@
 const assertEqual = function(actual, expected) {
 
   if (actual !== expected) {
-    console.log(actual + " !== " + expected);
+    console.log(` ${actual} !== ${expected}`);
   } else {
-    console.log("\uD83D\uDE00 " + actual + " === " + expected);
+    console.log(` \uD83D\uDE00 ${actual}  === ${expected}`);
   }
 
 };
