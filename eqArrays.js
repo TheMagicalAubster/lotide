@@ -1,4 +1,5 @@
-const eqArraysTest = require ('./eqArraysTest');
+const eqArraysTest = require ('./test/eqArraysTest');
+const assertArraysEqual = require('./assertArraysEqual');
 
 //this would be comparing the arrays, and producing a true/false
 const eqArrays = function(array1, array2) {
