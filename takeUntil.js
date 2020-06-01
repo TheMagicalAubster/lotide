@@ -32,7 +32,7 @@ const eqArrays = function(array1, array2) {
   
   return true;
 };
-  //this would be comparing true for true or false for false
+//this would be comparing true for true or false for false
 const assertEqual = function(actual, expected) {
   
   if (actual !== expected) {

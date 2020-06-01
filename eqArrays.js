@@ -8,7 +8,7 @@ const eqArrays = function(array1, array2) {
     if (array1[i] !== array2[i]) {
       return false;
     }
-  }
+  };
   
 
 
@@ -23,8 +23,8 @@ const assertEqual = function(actual, expected) {
     console.log(` \uD83D\uDE00 ${actual}  === ${expected}`);
   }
   
-};
-  
+}
+
 // TEST CODE
 assertEqual(eqArrays([1, 2, 3], [1, 2, 3, 4]), false); // => true
 //assertEqual(eqArrays([1, 2, 3], [3, 2, 1]), false); // => false
