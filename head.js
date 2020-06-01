@@ -1,4 +1,4 @@
-const headTest = require('./headTest');
+const headTest = require('./test/headTest');
 
 const head = function(actual) {
   let arrayHead = actual[0];
